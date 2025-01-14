@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Device Shop Checkout - devchallenges.io</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
-</head>
-<body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="heading">Checkout</h1>
-            <span class="body-text body-text-medium">3 items</span>
-        </div>
-    </header>
 
-    <main>
-        <div class="checkout-card">
-            <div class="checkout-card-header">
-                <h2 class="heading">Payment details</h2>
-                <p class="body-text body-text-medium">Complete your purchase by providing your payment details</p>
-            </div>
-            
-            <form class="checkout-form" action="index.html" method="post">
-                <div class="checkout-form-group">
-                    <label for="name" class="body-text body-text-regular">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="checkout-form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="checkout-form-group">
-                    <label for="country">Country</label>
-                    <input type="text" id="country" name="country" required>
-                </div>
-                <div class="checkout-form-group">
-                    <label for="zip">ZIP Code</label>
-                    <input type="text" id="zip" name="zip" required>
-                </div>
-            </form>
-        </div>
-    </main>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Device Shop Checkout - devchallenges.io</title>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+</head>
+
+<body>
+	<header class="hero">
+		<div class="hero-content">
+			<h1 class="heading">Checkout</h1>
+			<span class="body-text body-text-medium">3 items</span>
+		</div>
+	</header>
+
+	<main>
+		<div class="checkout-card">
+			<div class="checkout-items-list">
+				<div class="checkout-item">
+					<img src="./images/Gold.png" alt="iPhone" class="checkout-item-image">
+					<div class="checkout-item-details">
+						<h2 class="heading">iPhone 11</h2>
+						<span class="body-text body-text-regular">128GB, Black</span>
+						<span class="body-text body-text-medium">$699.00</span>
+					</div>
+				</div>
+
+				<div class="checkout-item">
+					<img src="./images/Gold.png" alt="iPhone" class="checkout-item-image">
+					<div class="checkout-item-details">
+						<h2 class="heading">iPhone 11</h2>
+						<span class="body-text body-text-regular">128GB, Black</span>
+						<span class="body-text body-text-medium">$699.00</span>
+					</div>
+				</div>
+
+				<div class="checkout-item">
+					<img src="./images/Gold.png" alt="iPhone" class="checkout-item-image">
+					<div class="checkout-item-details">
+						<h2 class="heading">iPhone 11</h2>
+						<span class="body-text body-text-regular">128GB, Black</span>
+						<span class="body-text body-text-medium">$699.00</span>
+					</div>
+				</div>
+
+			</div>
+
+			<form class="checkout-form" action="index.html" method="post">
+				<div class="checkout-form-group">
+					<label for="name" class="body-text body-text-regular">First & Last name</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="checkout-form-group">
+					<label for="email">Email Address</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="checkout-form-group">
+					<label for="country">Country</label>
+					<input type="text" id="country" name="country" required>
+				</div>
+				<div class="checkout-form-group">
+					<label for="zip">Postal Code</label>
+					<input type="text" id="zip" name="zip" required>
+				</div>
+				<input type="submit" value="Continue">
+			</form>
+		</div>
+	</main>
 </body>
+
 </html>
