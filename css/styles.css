@@ -88,6 +88,21 @@ main {
 	width: 50%;
 }
 
+.checkout-item {
+	width: 100%;
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.checkout-item-details {
+	width: 100%;
+}
+
+.quantity {
+	display: flex;
+	justify-content: space-between;
+}
+
 .checkout-form {
 	width: 50%;
 }
