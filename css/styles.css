@@ -26,17 +26,12 @@ a {
 	font-size: 1rem; /* 16px */
 }
 
-.body-text-regular {
-	font-weight: 400;
-}
-
-.body-text-medium {
-	font-weight: 500;
-}
-
-.body-text-semibold {
-	font-weight: 600;
-}
+/*
+	-TAILWIND FONTS-
+	font-normal: 400;
+	font-medium: 500;
+	font-semibold: 600;
+*/
 
 body {
 	min-height: 100vh;
