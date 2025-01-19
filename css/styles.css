@@ -79,9 +79,25 @@ main {
 	background: white;
 	border-radius: 12px;
 	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-	/* padding: 2rem; */
-
 	display: flex;
+}
+
+.image {
+	min-width: 100px;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 25px;
+	border-radius: 10px;
+	border: 1px solid #D2D5DA;
+	background-color: #FFFFFF;
+}
+
+hr {
+	width: 100%;
+	border: 1px solid #D2D5DA;
+	margin: 25px 0 !important;
 }
 
 .checkout-form-group {
