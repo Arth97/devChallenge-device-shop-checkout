@@ -29,12 +29,14 @@
 					<div class="image">
 						<img src="./images/Gold.png" alt="iPhone">
 					</div>
-					<div class="w-full">
-						<div class="flex justify-between">
-							<h2 class="body-text font-semibold">iPhone 12 Pro</h2>
-							<span class="body-text font-medium">$999.00</span>
+					<div class="w-full flex flex-col justify-between">
+						<div>
+							<div class="flex justify-between">
+								<h2 class="body-text font-semibold">iPhone 12 Pro</h2>
+								<span class="body-text font-medium">$999.00</span>
+							</div>
+							<span class="body-text font-normal">Golden</span>
 						</div>
-						<span class="body-text font-normal">Golden</span>
 						<div class="flex justify-between">
 							<span>x1</span>
 							<span>X</span>
@@ -46,12 +48,14 @@
 					<div class="image">
 						<img src="./images/Apple-watch.png" alt="Apple Watch">
 					</div>
-					<div class="w-full">
-						<div class="flex justify-between">
-							<h2 class="body-text font-semibold">Apple Watch</h2>
-							<span class="body-text font-medium">$399.00</span>
+					<div class="w-full flex flex-col justify-between">
+						<div>
+							<div class="flex justify-between">
+								<h2 class="body-text font-semibold">Apple Watch</h2>
+								<span class="body-text font-medium">$399.00</span>
+							</div>
+							<span class="body-text font-normal">Blue</span>
 						</div>
-						<span class="body-text font-normal">Blue</span>
 						<div class="flex justify-between">
 							<span>x1</span>
 							<span>X</span>
@@ -63,12 +67,14 @@
 					<div class="image">
 						<img src="./images/iMac.png" alt="iMac">
 					</div>
-					<div class="w-full">
-						<div class="flex justify-between">
-							<h2 class="body-text font-semibold">iMac</h2>
-							<span class="body-text font-medium">$1199.00</span>
+					<div class="w-full flex flex-col justify-between">
+						<div>
+							<div class="flex justify-between">
+								<h2 class="body-text font-semibold">iMac</h2>
+								<span class="body-text font-medium">$1199.00</span>
+							</div>
+							<span class="body-text font-normal">Green</span>
 						</div>
-						<span class="body-text font-normal">Green</span>
 						<div class="flex justify-between">
 							<span>x1</span>
 							<span>X</span>
@@ -100,21 +106,22 @@
 			</div>
 
 			<form class="w-1/2 p-8" action="index.html" method="post">
+				<p class="font-semibold mb-7">Contant Information</p>
 				<div class="checkout-form-group">
-					<label for="name" class="body-text font-normal">First & Last name</label>
+					<label for="name" class="body-text font-medium">First & Last name</label>
 					<input type="text" id="name" name="name" placeholder="Enter first & last name" required>
 				</div>
 				<div class="checkout-form-group">
-					<label for="email">Email Address</label>
+					<label for="email" class="body-text font-medium">Email Address</label>
 					<input type="email" id="email" name="email" placeholder="Enter email address" required>
 				</div>
 				<div class="flex gap-6">
 					<div class="checkout-form-group w-1/2">
-						<label for="country">Country</label>
+						<label for="country" class="body-text font-medium">Country</label>
 						<input type="text" id="country" name="country" required>
 					</div>
 					<div class="checkout-form-group w-1/2">
-						<label for="zip">Postal Code</label>
+						<label for="zip" class="body-text font-medium">Postal Code</label>
 						<input type="text" id="zip" name="zip" placeholder="00270" required>
 					</div>
 				</div>

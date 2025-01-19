@@ -26,6 +26,14 @@ a {
 	font-size: 1rem; /* 16px */
 }
 
+.primary-color {
+	color: #1D1D1F;
+}
+
+.secondary-color {
+	color: #394150;
+}
+
 /*
 	-TAILWIND FONTS-
 	font-normal: 400;
