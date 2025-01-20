@@ -118,7 +118,7 @@ hr {
 	color: #374151;
 }
 
-.checkout-form-group input {
+.checkout-form-group input, select {
 	width: 100%;
 	padding: 1rem;
 	border: 1px solid #D2D5DA;

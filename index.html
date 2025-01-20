@@ -35,11 +35,11 @@
 								<h2 class="body-text font-semibold">iPhone 12 Pro</h2>
 								<span class="body-text font-medium">$999.00</span>
 							</div>
-							<span class="body-text font-normal">Golden</span>
+							<span class="body-text font-medium secondary-color">Golden</span>
 						</div>
 						<div class="flex justify-between">
-							<span>x1</span>
-							<span>X</span>
+							<span class="secondary-color">x 1</span>
+							<span class="secondary-color">X</span>
 						</div>
 					</div>
 				</div>
@@ -54,11 +54,11 @@
 								<h2 class="body-text font-semibold">Apple Watch</h2>
 								<span class="body-text font-medium">$399.00</span>
 							</div>
-							<span class="body-text font-normal">Blue</span>
+							<span class="body-text font-medium secondary-color">Blue</span>
 						</div>
 						<div class="flex justify-between">
-							<span>x1</span>
-							<span>X</span>
+							<span class="secondary-color">x 1</span>
+							<span class="secondary-color">X</span>
 						</div>
 					</div>
 				</div>
@@ -73,11 +73,11 @@
 								<h2 class="body-text font-semibold">iMac</h2>
 								<span class="body-text font-medium">$1199.00</span>
 							</div>
-							<span class="body-text font-normal">Green</span>
+							<span class="body-text font-medium secondary-color">Green</span>
 						</div>
 						<div class="flex justify-between">
-							<span>x1</span>
-							<span>X</span>
+							<span class="secondary-color">x 1</span>
+							<span class="secondary-color">X</span>
 						</div>
 					</div>
 				</div>
@@ -118,7 +118,14 @@
 				<div class="flex gap-6">
 					<div class="checkout-form-group w-1/2">
 						<label for="country" class="body-text font-medium">Country</label>
-						<input type="text" id="country" name="country" required>
+						<select id="country" name="country" class="w-full p-4 border border-[#D2D5DA] rounded-lg bg-[#E5E7EB]" required>
+							<option value="" disabled selected>Select a country</option>
+							<option value="spain">Spain</option>
+							<option value="japan">Japan</option>
+							<option value="canada">Canada</option>
+							<option value="australia">Australia</option>
+							<option value="brazil">Brazil</option>
+						</select>
 					</div>
 					<div class="checkout-form-group w-1/2">
 						<label for="zip" class="body-text font-medium">Postal Code</label>
