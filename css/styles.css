@@ -127,12 +127,13 @@ hr {
 	background-color: #E5E7EB;
 }
 
-@media screen and (min-width: 720px) {
-	/* .hero {
-		padding: 3rem;
-	}
-
+@media screen and (max-width: 768px) {
 	.checkout-card {
-		padding: 3rem;
-	} */
+		max-width: 620px;
+		max-height: 1130px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
 }
